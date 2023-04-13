@@ -1,9 +1,9 @@
 good_driving_record = true
 age = 24
 
-if good_driving_record == true && age > 25
+if good_driving_record == true && age >= 25
     puts "you get a discount"
-elsif good_driving_record == true || age > 25  
+elsif good_driving_record == true || age >= 25  
     puts " pay full price"
 elsif good_driving_record == false && age < 25
     puts "you need someone else to sign"
