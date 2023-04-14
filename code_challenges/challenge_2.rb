@@ -5,7 +5,7 @@ if good_driving_record == true && age >= 25
     puts "you get a discount"
 elsif good_driving_record == true || age >= 25  
     puts " pay full price"
-elsif good_driving_record == false && age < 25
+else 
     puts "you need someone else to sign"
  
 end
